@@ -99,7 +99,7 @@ int main() {
     kereta* merge = mergelist(list1, list2);
 
     printf("MERGED ");
-    printList(merge);
+    printlist(merge);
     printf("\n");
 
     freeList(merge);
