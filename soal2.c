@@ -52,7 +52,7 @@ kereta* mergelist(kereta* l1, kereta* l2) {
 }
 
 // Fungsi untuk membebaskan memori list, referesni (option 2) https://stackoverflow.com/questions/59045963/how-to-free-memory-properly-from-linked-list-in-c#:~:text=%23include,seen%20it%20in%20any%20tutorial
-void freeList(kereta* head) {
+void freelist(kereta* head) {
     kereta* temp;
     while (head != NULL) {
         temp = head;
@@ -61,7 +61,7 @@ void freeList(kereta* head) {
     }
 }
 // Fungsi untuk mencetak list, referensi : https://www.geeksforgeeks.org/dsa/print-linked-list/
-void printList(kereta* head) {
+void printlist(kereta* head) {
     if (head == NULL) {
         printf("EMPTY");
         return;
