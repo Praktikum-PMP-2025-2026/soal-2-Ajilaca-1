@@ -52,7 +52,7 @@ kereta* mergelist(kereta* l1, kereta* l2) {
 }
 
 // Fungsi untuk membebaskan memori list, referesni (option 2) https://stackoverflow.com/questions/59045963/how-to-free-memory-properly-from-linked-list-in-c#:~:text=%23include,seen%20it%20in%20any%20tutorial
-void freelist(kereta* head) {
+void freeList(kereta* head) {
     kereta* temp;
     while (head != NULL) {
         temp = head;
